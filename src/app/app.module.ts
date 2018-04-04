@@ -8,6 +8,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { NavigatorComponent } from './component/navigator/navigator.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { ServiceComponent } from './component/mainContent/service/service.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './/app-routing.module';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    NavigatorComponent
+    NavigatorComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
