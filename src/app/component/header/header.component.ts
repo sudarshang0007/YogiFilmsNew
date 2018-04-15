@@ -21,12 +21,12 @@ export class HeaderComponent implements OnInit {
   // Image Sliding Function for Home Background 
 
   slideImage(): void {
-    let i = 0;
+    /* let i = 0;
     setInterval(() => {
       this.selectedImage = this.imgList[(i % this.imgList.length)];
       console.log(this.selectedImage);
       i = i + 1;
-    }, 5000);
+    }, 5000); */
   }
 
 

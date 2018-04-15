@@ -9,6 +9,8 @@ import { FooterComponent } from './component/footer/footer.component';
 import { NavigatorComponent } from './component/navigator/navigator.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ServiceComponent } from './component/mainContent/service/service.component';
+import { ContactComponent } from './component/mainContent/contact/contact.component';
+import { GalleryComponent } from './component/mainContent/gallery/gallery.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { ServiceComponent } from './component/mainContent/service/service.compon
     HeaderComponent,
     FooterComponent,
     NavigatorComponent,
-    ServiceComponent
+    ServiceComponent,
+    ContactComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

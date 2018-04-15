@@ -1,0 +1,21 @@
+.grid div img{
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.grid div img:hover{
+    cursor: pointer;
+    -webkit-filter: grayscale(1.5);
+    -moz-filter: grayscale(1.5);
+    -o-filter: grayscale(1.5);
+    -ms-filter: grayscale(1.5);
+    filter: grayscale(1.5);
+
+    transform: scale(1.05);
+
+    z-index:10;
+}
+
+.grid div{
+    padding: 2px;
+}
